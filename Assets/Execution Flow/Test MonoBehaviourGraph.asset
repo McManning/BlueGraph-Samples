@@ -133,7 +133,7 @@ MonoBehaviour:
           connections:
           - nodeId: 7fa6a02c-c6c3-4a36-84f0-382150c0ad24
             portName: ExecOut
-        condition: 0
+        condition: 1
     00000004:
       type: {class: DebugLog, ns: BlueGraphSamples, asm: Assembly-CSharp}
       data:
