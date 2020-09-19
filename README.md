@@ -8,8 +8,8 @@ The following samples are available for you to play around with or use as a base
 
 Visualize and modify a typical RPG-style dialog system. 
 
-<img alt="Dialog Tree Scene" src="Documentation~/dialog-tree-scene.png" width="50%"/>
-<img alt="Dialog Tree Graph" align="right" src="Documentation~/dialog-tree-graph.png" width="50%"/>
+<img alt="Dialog Tree Scene" align="left" src="Documentation~/dialog-tree-scene.png" width="45%"/>
+<img alt="Dialog Tree Graph" src="Documentation~/dialog-tree-graph.png" width="45%"/>
 
 This includes nodes for setting portraits and letting the player choose different responses based on game conditions (their current stats, relationship to an NPC, etc).
 
@@ -29,14 +29,14 @@ This graph can be modified in Play Mode, allowing you to quickly iterate on conv
 
 While in Play Mode, you can set breakpoints on the Graph to pause execution when the breakpoint is reached. Right click a node in the graph and click **Set Breakpoint**. Once that node has been reached in Play Mode, it will be highlighted and you have to click **Continue from Breakpoint** to move on.
 
-![Dialog Tree Breakpoints](Documentation~/dialog-tree-breakpoint.png)
+<img alt="Dialog Tree Breakpoints" src="Documentation~/dialog-tree-breakpoint.png" width="40%"/>
 
 
 # Execution Flow
 
 Execute a series of nodes in the style of UE4 Blueprints in response to different events.
 
-![Execution Flow Graph](Documentation~/execution-flow-graph.png)
+<img alt="Execution Flow Graph" src="Documentation~/execution-flow-graph.png" width="60%"/>
 
 ## Running the Sample
 
@@ -74,8 +74,8 @@ public class DoFoo : ExecutableNode
 
 Procedurally create a Unity Terrain by blending different heightmap generators
 
-<img alt="Terrain Generator Scene" src="Documentation~/terrain-generator-scene.png" width="55%"/>
-<img alt="Terrain Generator Graph" align="right" src="Documentation~/terrain-generator-graph.png" width="45%"/>
+<img alt="Terrain Generator Scene" align="left" src="Documentation~/terrain-generator-scene.png" width="50%"/>
+<img alt="Terrain Generator Graph" src="Documentation~/terrain-generator-graph.png" width="40%"/>
 
 ## Running the Sample
 
@@ -106,7 +106,7 @@ Other examples that have no other home.
 
 There is a node to demo mesh previews within an IMGUIContainer (see `MeshPreviewNodeView`) as well as "kitchen sink" nodes for demoing the different types of data supported. 
 
-<img alt="Terrain Generator Scene" src="Documentation~/mesh-preview-node.png" width="35%"/>
-<img alt="Terrain Generator Graph" align="right" src="Documentation~/kitchen-sink-node.png" width="60%"/>
+<img alt="Terrain Generator Scene" align="left" src="Documentation~/mesh-preview-node.png" width="20%"/>
+<img alt="Terrain Generator Graph" src="Documentation~/kitchen-sink-node.png" width="40%"/>
 
 There is also a `DynamicVector` class that, when used as a port type, allows you to cast any vector/float dimension to another vector/float within the graph editor. This makes use of BlueGraph's `IConvertible` support for safe type conversions.
