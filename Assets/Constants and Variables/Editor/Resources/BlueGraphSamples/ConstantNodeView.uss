@@ -1,0 +1,81 @@
+﻿
+.nodeView #title-label,
+.nodeView #divider {
+    display: none;
+}
+
+.nodeView #title {
+    height: 2px;
+    background-color: var(--type-color);
+}
+
+.nodeView #contents {
+    flex-direction: row-reverse;
+}
+
+.port.portView > #type {
+    visibility: hidden;
+    width: 0;
+    margin: 0;
+}
+
+.nodeView .portView.port {
+    top: 2px;
+}
+
+.nodeView #extension > .unity-base-field > .unity-base-field__label {
+    min-width: 0;
+    display: none;
+}
+
+.nodeView #extension > .unity-base-field > .unity-base-field__input {
+    min-width: 60px;
+    max-width: 200px;
+}
+
+.nodeView #extension .unity-composite-field__input {
+    flex-direction: column;
+}
+
+.nodeView #extension .unity-composite-field__label {
+    min-width: 0;
+    visibility: hidden;
+    width: 0;
+}
+
+.nodeView #extension .unity-property-field__label {
+    min-width: 0;
+    flex: 1 0 0;
+    -unity-text-align: upper-left;
+    padding-right: 0;
+}
+
+.nodeView #extension .unity-property-field__input {
+    min-width: 0;
+}
+
+.nodeView #extension #unity-text-input {
+    white-space: normal;
+}
+
+/* Unity can't handle editing wrapped text in 2019.3, so we
+    unwrap it while editing and wrap again while reading.
+*/
+.nodeView #extension #unity-text-input:focus {
+    white-space: nowrap;
+}
+
+.nodeView #contents {
+    background-color: var(--type-color);
+}
+
+.nodeView #collapsible-area,
+.nodeView #contents > #top > #output {
+    background-color: rgba(29, 33, 41, 0.98);
+    opacity: 1;
+}
+
+.nodeView #node-border,
+.nodeView #selection-border {
+    border-radius: 10px;
+}

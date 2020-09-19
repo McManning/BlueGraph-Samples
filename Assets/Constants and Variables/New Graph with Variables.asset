@@ -1,0 +1,542 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a644bc91fb196e45945e22c64804737, type: 3}
+  m_Name: New Graph with Variables
+  m_EditorClassIdentifier: 
+  nodes:
+  - id: 0
+  - id: 1
+  - id: 2
+  - id: 3
+  - id: 4
+  - id: 5
+  - id: 6
+  - id: 7
+  - id: 8
+  - id: 9
+  - id: 10
+  - id: 11
+  - id: 12
+  comments:
+  - text: asdgasdg
+    theme: 0
+    region:
+      serializedVersion: 2
+      x: 309
+      y: -463
+      width: 473
+      height: 277
+  assetVersion: 1
+  variables:
+    entries:
+    - name: Fizz
+      type: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      isConstant: 0
+      singleValue: 0
+      int32Value: 0
+      stringValue: 
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+      vector4Value: {x: 0, y: 0, z: 0, w: 0}
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      animationcurveValue:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      gradientValue:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      objectValue: {fileID: 0}
+    - name: New Single
+      type: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      isConstant: 0
+      singleValue: 0
+      int32Value: 0
+      stringValue: 
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+      vector4Value: {x: 0, y: 0, z: 0, w: 0}
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      animationcurveValue:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      gradientValue:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      objectValue: {fileID: 0}
+    - name: New Single 4
+      type: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      isConstant: 1
+      singleValue: 1321
+      int32Value: 0
+      stringValue: 
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+      vector4Value: {x: 0, y: 0, z: 0, w: 0}
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      animationcurveValue:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      gradientValue:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      objectValue: {fileID: 0}
+    - name: New Single 7
+      type: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      isConstant: 0
+      singleValue: 0
+      int32Value: 0
+      stringValue: 
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+      vector4Value: {x: 0, y: 0, z: 0, w: 0}
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      animationcurveValue:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      gradientValue:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      objectValue: {fileID: 0}
+    - name: New Object
+      type: UnityEngine.Object, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      isConstant: 0
+      singleValue: 0
+      int32Value: 0
+      stringValue: 
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+      vector4Value: {x: 0, y: 0, z: 0, w: 0}
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      animationcurveValue:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      gradientValue:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      objectValue: {fileID: 0}
+  references:
+    version: 1
+    00000000:
+      type: {class: GetVariableNode, ns: BlueGraphSamples, asm: Assembly-CSharp}
+      data:
+        id: 37010a07-67a0-468e-8960-55a9e4b46c9f
+        name: Fizz
+        graph: {fileID: 11400000}
+        position: {x: 137, y: -163}
+        ports:
+        - name: Value
+          type: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+          capacity: 1
+          direction: 1
+          connections: []
+    00000001:
+      type: {class: SetVariableNode, ns: BlueGraphSamples, asm: Assembly-CSharp}
+      data:
+        id: a80bc2c9-78cf-4515-8b48-15c76b703bed
+        name: Set
+        graph: {fileID: 11400000}
+        position: {x: 472, y: -402}
+        ports:
+        - name: ExecOut
+          type: BlueGraphSamples.ExecutionFlowData, Assembly-CSharp, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+          capacity: 0
+          direction: 1
+          connections:
+          - nodeId: 28de12b2-0120-4a73-8ed3-852db3e80c67
+            portName: ExecIn
+        - name: ExecIn
+          type: BlueGraphSamples.ExecutionFlowData, Assembly-CSharp, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+          capacity: 1
+          direction: 0
+          connections: []
+        - name: Fizz
+          type: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+          capacity: 0
+          direction: 0
+          connections:
+          - nodeId: bed9ede3-4ce7-4acd-a622-ac2a0ec30080
+            portName: value
+        variableName: Fizz
+    00000002:
+      type: {class: ConstantFloat, ns: BlueGraphSamples, asm: Assembly-CSharp}
+      data:
+        id: bed9ede3-4ce7-4acd-a622-ac2a0ec30080
+        name: Make Float
+        graph: {fileID: 11400000}
+        position: {x: 342, y: -370}
+        ports:
+        - name: value
+          type: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+          capacity: 1
+          direction: 1
+          connections:
+          - nodeId: a80bc2c9-78cf-4515-8b48-15c76b703bed
+            portName: Fizz
+        value: 1321231
+    00000003:
+      type: {class: Vector3Constant, ns: BlueGraphSamples, asm: Assembly-CSharp}
+      data:
+        id: 7b2efaf3-5271-4bbe-a9bd-de8e0cd358db
+        name: Vector3 Constant
+        graph: {fileID: 11400000}
+        position: {x: -153, y: -204}
+        ports:
+        - name: value
+          type: UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+            PublicKeyToken=null
+          capacity: 1
+          direction: 1
+          connections: []
+        value: {x: 0, y: 1346, z: 4654}
+    00000004:
+      type: {class: ConstantFloat, ns: BlueGraphSamples, asm: Assembly-CSharp}
+      data:
+        id: 28ce3f02-3222-4c77-936f-05dcfc15fabd
+        name: Float Constant
+        graph: {fileID: 11400000}
+        position: {x: 35, y: -300}
+        ports:
+        - name: value
+          type: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+          capacity: 1
+          direction: 1
+          connections: []
+        value: 0
+    00000005:
+      type: {class: StringConstant, ns: BlueGraphSamples, asm: Assembly-CSharp}
+      data:
+        id: 1b3d12ab-daed-4ea4-85a7-5a1f2b61a4d0
+        name: String Constant
+        graph: {fileID: 11400000}
+        position: {x: -81, y: -457}
+        ports:
+        - name: value
+          type: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+          capacity: 1
+          direction: 1
+          connections: []
+        value: the wrapping still sucks. And unity can't really handle wrapped text
+          selection all too well... maybe in later updates?
+    00000006:
+      type: {class: Vector4Constant, ns: BlueGraphSamples, asm: Assembly-CSharp}
+      data:
+        id: c71c2789-c5cb-4f89-9adb-852a5b92bfa7
+        name: Vector4 Constant
+        graph: {fileID: 11400000}
+        position: {x: -172, y: -345}
+        ports:
+        - name: value
+          type: UnityEngine.Vector4, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+            PublicKeyToken=null
+          capacity: 1
+          direction: 1
+          connections: []
+        value: {x: 5.4644546e+13, y: 12346, z: 6496, w: 44}
+    00000007:
+      type: {class: StringConstant, ns: BlueGraphSamples, asm: Assembly-CSharp}
+      data:
+        id: d0ec2694-fe41-4bac-b372-f81771d16d13
+        name: String Constant
+        graph: {fileID: 11400000}
+        position: {x: -88, y: -590}
+        ports:
+        - name: value
+          type: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+          capacity: 1
+          direction: 1
+          connections: []
+        value: this version does the wrapping thing MAYBE better than the other one?
+          Haha unity sucks though.
+    00000008:
+      type: {class: CurveConstant, ns: BlueGraphSamples, asm: Assembly-CSharp}
+      data:
+        id: 8921fd64-6b1d-43e2-8416-a6daa37e002b
+        name: Curve Constant
+        graph: {fileID: 11400000}
+        position: {x: 215, y: -555}
+        ports:
+        - name: value
+          type: UnityEngine.AnimationCurve, UnityEngine.CoreModule, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+          capacity: 1
+          direction: 1
+          connections: []
+        value:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 2
+            outSlope: 2
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+    00000009:
+      type: {class: GetVariableNode, ns: BlueGraphSamples, asm: Assembly-CSharp}
+      data:
+        id: f8c08260-1b24-416c-8c6e-aa4ec34d41c3
+        name: New Single
+        graph: {fileID: 11400000}
+        position: {x: 432, y: -258}
+        ports:
+        - name: Value
+          type: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+          capacity: 1
+          direction: 1
+          connections:
+          - nodeId: 28de12b2-0120-4a73-8ed3-852db3e80c67
+            portName: New Single 7
+    0000000A:
+      type: {class: SetVariableNode, ns: BlueGraphSamples, asm: Assembly-CSharp}
+      data:
+        id: 28de12b2-0120-4a73-8ed3-852db3e80c67
+        name: Set
+        graph: {fileID: 11400000}
+        position: {x: 600, y: -284}
+        ports:
+        - name: ExecOut
+          type: BlueGraphSamples.ExecutionFlowData, Assembly-CSharp, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+          capacity: 0
+          direction: 1
+          connections: []
+        - name: ExecIn
+          type: BlueGraphSamples.ExecutionFlowData, Assembly-CSharp, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+          capacity: 1
+          direction: 0
+          connections:
+          - nodeId: a80bc2c9-78cf-4515-8b48-15c76b703bed
+            portName: ExecOut
+        - name: New Single 7
+          type: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+          capacity: 0
+          direction: 0
+          connections:
+          - nodeId: f8c08260-1b24-416c-8c6e-aa4ec34d41c3
+            portName: Value
+        variableName: New Single 7
+    0000000B:
+      type: {class: CurveConstant, ns: BlueGraphSamples, asm: Assembly-CSharp}
+      data:
+        id: 5056d85b-55ba-4af3-a422-bee45a197831
+        name: Curve Constant
+        graph: {fileID: 11400000}
+        position: {x: 414, y: -559}
+        ports:
+        - name: value
+          type: UnityEngine.AnimationCurve, UnityEngine.CoreModule, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+          capacity: 1
+          direction: 1
+          connections: []
+        value:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 2
+            outSlope: 2
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+    0000000C:
+      type: {class: AssetConstant, ns: BlueGraphSamples, asm: Assembly-CSharp}
+      data:
+        id: 214d2026-b282-41e4-8e77-11beaa3f8139
+        name: Asset Constant
+        graph: {fileID: 11400000}
+        position: {x: 300, y: -705}
+        ports:
+        - name: value
+          type: UnityEngine.ScriptableObject, UnityEngine.CoreModule, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+          capacity: 1
+          direction: 1
+          connections: []
+        value: {fileID: 0}

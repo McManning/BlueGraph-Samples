@@ -1,0 +1,14 @@
+﻿
+
+.nodeView #title {
+    background-color: rgba(29, 33, 41, 1.0);
+    justify-content: center;
+    margin: 0;
+}
+
+/* TODO: This forced nesting sucks. Can I fix this in the base USS? */
+
+.nodeView #contents > #top > #input,
+.nodeView #contents > #top > #output {
+    background-color: rgba(29, 33, 41, 0.7);
+}

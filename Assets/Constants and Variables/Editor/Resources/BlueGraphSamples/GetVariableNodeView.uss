@@ -1,0 +1,48 @@
+﻿
+.nodeView #type-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+
+    /*
+    background-image: resource("sv_icon_name0");
+    -unity-slice-left: 4;
+    -unity-slice-right: 4;
+    -unity-slice-top: 4;
+    -unity-slice-bottom: 4;
+
+    -unity-background-image-tint-color: var(--type-color);
+    */
+
+    background-color: var(--type-color);
+    opacity: 0.06;
+}
+
+.nodeView #title {
+    padding-right: 24px;
+
+    height: 30px;
+    background-color: rgba(29, 33, 41, 0.9);
+}
+
+.nodeView .portView.port #type {
+    visibility: hidden;
+    width: 1px;
+}
+
+.nodeView .portView.port {
+    position: absolute;
+    top: -26px;
+    right: 0;
+}
+
+.nodeView #contents {
+    height: 0;
+}
+
+.nodeView #node-border,
+.nodeView #selection-border {
+    border-radius: 15px;
+}
