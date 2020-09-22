@@ -102,7 +102,7 @@ namespace BlueGraphSamples
 
         public Node Instantiate(SearchResult result)
         {
-            if (result.Name.IndexOf("Set") >= 0)
+            if (result.Name.IndexOf("Set") == 0)
             {
                 return InstantiateSetter(result.UserData as GraphVariable);
             }
